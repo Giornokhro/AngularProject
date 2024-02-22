@@ -1,0 +1,423 @@
+<main class="flex-grow container mx-auto mt-4">
+
+  <!-- Divs carruseles-->
+  <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-1">
+
+    <div>
+
+      <div id="animation-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://gintamamerch.shop/wp-content/uploads/2023/06/No_edit_gintama_banner_1920x730px.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://gintamamerch.shop/wp-content/uploads/2023/06/No_edit_gintama_t_shirt.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item="active">
+            <img src="https://pm1.aminoapps.com/7422/9f190c6f111ae10d73a31114313d8343fa1c9bbar1-2048-1518v2_hq.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://i0.wp.com/sojapan.jp/wp-content/uploads/2017/01/C2BA2IJUoAA3C1t.jpg?resize=728%2C546"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-200 ease-linear" data-carousel-item>
+            <img src="https://static.myfigurecollection.net/upload/pictures/2014/09/09/1093865.jpeg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <!--Carrusel estatico-->
+    <div>
+      <div id="default-carousel" class="relative w-full mt-6" data-carousel="slide w-screen">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://gintamamerch.shop/wp-content/uploads/2023/06/No_edit_gintama_banner_1920x730px.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://gintamamerch.shop/wp-content/uploads/2023/06/No_edit_gintama_t_shirt.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://pm1.aminoapps.com/7422/9f190c6f111ae10d73a31114313d8343fa1c9bbar1-2048-1518v2_hq.jpg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://i0.wp.com/sojapan.jp/wp-content/uploads/2017/01/C2BA2IJUoAA3C1t.jpg?resize=728%2C546"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://static.myfigurecollection.net/upload/pictures/2014/09/09/1093865.jpeg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+            data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+            data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+            data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+            data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+            data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5 1 1 5l4 4" />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 9 4-4-4-4" />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="bg-gray-300 p-4">Div 7</div>
+
+
+  </div>
+
+  <!-- 4 divs en 2x2 grid -->
+  <div class="grid grid-cols-2 gap-2">
+
+    <div
+      class="mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="p-8 rounded-t-lg" src="https://down-my.img.susercontent.com/file/df44b09a160cd9e82fc8c7c7c7cfdeea"
+          alt="product image" />
+      </a>
+      <div class="px-5 pb-5">
+        <a href="#">
+          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS,
+            Aluminium Case, Starlight Sport</h5>
+        </a>
+        <div class="flex items-center mt-2.5 mb-5">
+          <div class="flex items-center space-x-1 rtl:space-x-reverse">
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+          </div>
+          <span
+            class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+          <a href="#"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
+            to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="p-8 rounded-t-lg" src="https://m.media-amazon.com/images/I/41Nua1yTsiL._AC_UF894,1000_QL80_.jpg"
+          alt="product image" />
+      </a>
+      <div class="px-5 pb-5">
+        <a href="#">
+          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS,
+            Aluminium Case, Starlight Sport</h5>
+        </a>
+        <div class="flex items-center mt-2.5 mb-5">
+          <div class="flex items-center space-x-1 rtl:space-x-reverse">
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+          </div>
+          <span
+            class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+          <a href="#"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
+            to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="p-8 rounded-t-lg" src="https://down-ph.img.susercontent.com/file/2b566e9f2354dc06c54937fe43ca1465"
+          alt="product image" />
+      </a>
+      <div class="px-5 pb-5">
+        <a href="#">
+          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS,
+            Aluminium Case, Starlight Sport</h5>
+        </a>
+        <div class="flex items-center mt-2.5 mb-5">
+          <div class="flex items-center space-x-1 rtl:space-x-reverse">
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+          </div>
+          <span
+            class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+          <a href="#"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
+            to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="mx-auto w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <a href="#">
+        <img class="p-8 rounded-t-lg" src="https://i.pinimg.com/originals/25/18/d6/2518d6cdb104698fdd872b1d6d3a2d0c.jpg"
+          alt="product image" />
+      </a>
+      <div class="px-5 pb-5">
+        <a href="#">
+          <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS,
+            Aluminium Case, Starlight Sport</h5>
+        </a>
+        <div class="flex items-center mt-2.5 mb-5">
+          <div class="flex items-center space-x-1 rtl:space-x-reverse">
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-gray-200 dark:text-gray-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor" viewBox="0 0 22 20">
+              <path
+                d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+          </div>
+          <span
+            class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+          <a href="#"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add
+            to cart</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--Debajo delos 4-->
+  <div class="mt-8 grid grid-cols-1 gap-4 md:grid-cols-1">
+
+    <div>
+      <!-- Container for demo purpose -->
+      <div class="container my-24 mx-auto md:px-6">
+        <!-- Section: Design Block -->
+        <section class="mb-32 text-center">
+          <div class="flex justify-center">
+            <div class="max-w-[700px] text-center">
+              <h2 class="mb-6 text-center text-3xl font-bold">
+                Why is it so<u class="text-primary dark:text-primary-400">
+                  great?</u>
+              </h2>
+              <p class="mb-16 text-neutral-500 dark:text-neutral-300">
+                Minus fuga aliquid vero facere ducimus quos, quisquam nemo?
+                Molestias ullam provident vitae error aliquam dolorum temporibus?
+                Doloremque, quasi
+              </p>
+            </div>
+          </div>
+
+          <div class="grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12">
+            <div class="mb-12 lg:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Support 24/7</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Laudantium totam quas cumque pariatur at doloremque hic quos quia
+                eius. Reiciendis optio minus mollitia rerum labore
+              </p>
+            </div>
+
+            <div class="mb-12 lg:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Safe and solid</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Eum nostrum fugit numquam, voluptates veniam neque quibusdam ullam
+                aspernatur odio soluta, quisquam dolore animi
+              </p>
+            </div>
+
+            <div class="mb-12 md:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Extremely fast</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Enim cupiditate, minus nulla dolor cumque iure eveniet facere
+                ullam beatae hic voluptatibus dolores exercitationem
+              </p>
+            </div>
+
+            <div class="mb-12 md:mb-0">
+              <div class="mb-6 inline-block rounded-full bg-primary-100 p-4 text-primary shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                  stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 107.5 7.5h-7.5V6z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0013.5 3v7.5z" />
+                </svg>
+              </div>
+              <h5 class="mb-4 text-lg font-bold">Live analytics</h5>
+              <p class="text-neutral-500 dark:text-neutral-300">
+                Illum doloremque ea, blanditiis sed dolor laborum praesentium
+                maxime sint, consectetur atque ipsum ab adipisci
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Design Block -->
+      </div>
+      <!-- Container for demo purpose -->
+    </div>
+
+  </div>
+
+</main>
